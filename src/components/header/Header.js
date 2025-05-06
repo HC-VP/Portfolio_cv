@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className={`header-container ${menuOpen ? 'active' : ''}`}>
       <div className="logo">
-        <Link to="/">JOHN DOE</Link> 
+        <Link to="/">Hugo CEMELI</Link> 
       </div>
 
       {/* Hamburger icon */}
