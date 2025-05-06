@@ -107,69 +107,10 @@ h2 {
   font-size: 1.25rem;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-}
 
-.column h3 {
-  margin-top: 15px;
-}
 
-.about-photo {
-  border-radius: 15px;
-  max-width: auto;
-  height: auto;
-  object-fit: cover;
-  
-}
 
-/* Skill Bar Styling */
-.progress-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 100%;
-}
 
-.progress-bar {
-  width: 100%;
-  height: 10px;
-  background-color: #ddd;
-  border-radius: 5px;
-  position: relative;
-}
-
-.progress-bar span {
-  display: block;
-  height: 100%;
-  border-radius: 5px;
-}
-
-.skill-html {
-  background-color: red;
-  width: 90%;
-}
-
-.skill-css {
-  background-color: #29b6f6;
-  width: 80%;
-}
-
-.skill-javascript {
-  background-color: yellow;
-  width: 70%;
-}
-
-.skill-php {
-  background-color: green;
-  width: 60%;
-}
-
-.skill-react {
-  background-color: blue;
-  width: 50%;
-}
 
 
 /* Mobile Version */
