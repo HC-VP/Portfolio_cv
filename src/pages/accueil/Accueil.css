@@ -1,0 +1,185 @@
+/* Accueil Page Styles */
+.accueil-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  background-color: #eee;
+}
+
+.background-image {
+  background-image: url('../../images/hero-bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  margin-top: -50px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #f9f9f9;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  z-index: 10;
+  position: relative;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+/* About Section Box */
+.about-content {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 75px;
+  margin: 50px;
+  border-radius: 10px;
+  gap: 30px; /* Space between left and right sections */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the content */
+}
+
+
+
+
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  
+  
+}
+
+.about-details p {
+  margin-top: 30px;
+  font-size: 1.25rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column h3 {
+  margin-top: 15px;
+}
+
+.about-photo {
+  border-radius: 15px;
+  max-width: auto;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+/* Skill Bar Styling */
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skill-html {
+  background-color: red;
+  width: 90%;
+}
+
+.skill-css {
+  background-color: #29b6f6;
+  width: 80%;
+}
+
+.skill-javascript {
+  background-color: yellow;
+  width: 70%;
+}
+
+.skill-php {
+  background-color: green;
+  width: 60%;
+}
+
+.skill-react {
+  background-color: blue;
+  width: 50%;
+}
+
+
+/* Mobile Version */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;  /* Stack content on mobile */
+    padding: 20px; /* Less padding on mobile */
+  }
+
+  
+
+  .progress-bars {
+    margin-top: 20px;
+    width: 100%; /* Ensure progress bars fit on mobile */
+  }
+
+  .about-photo {
+    width: 50%; /* Limit image size on mobile */
+    height: auto;
+    margin-left: -25px;
+    position: relative;
+  }
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-content {
+    flex-direction: row; /* Keep side-by-side layout on tablets */
+    text-align: left;
+    padding: 30px;
+  }
+
+  
+
+  .progress-bars {
+    width: 100%;
+  }
+}
+
+
