@@ -20,11 +20,16 @@ function Accueil() {
             <img src="/images/MeGibli_NoBack.jpg" alt="Hugo CEMELI" />
           </div>
           
-          <div className="overlay">
-            <h1>Bonjour, je suis Hugo CEMELI</h1>
-            <p>Développeur web full stack</p>
-            <a href="#about" className="btn">En savoir plus</a>
+          <div className="banner-container">
+            <div className="banner-text">
+              <h1>Bonjour, je suis Hugo CEMELI</h1>
+              <div className="divider"></div>
+              <p>Développeur web full stack</p>
+              
+            </div>
           </div>
+
+          
           
         </div>
       </div>

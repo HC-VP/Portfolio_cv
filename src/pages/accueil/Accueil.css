@@ -20,19 +20,63 @@
   margin-top: -50px;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #f9f9f9;
-  text-align: center;
+
+/* Banniere-encadré Bonjour je suis... */
+
+.banner-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
+  align-items: center;
+  min-height: 60vh;
 }
+
+.banner-text {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 2rem 3rem;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease-out;
+  max-width: 600px;
+  margin: auto;
+}
+
+.banner-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-text p {
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: #0074c7;
+  margin: 1rem auto;
+  border-radius: 4px;
+}
+
+/* animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 
 .background-content {
@@ -76,6 +120,9 @@ h2 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
+
+
+
 
 /* About Section Box */
 .about-content {

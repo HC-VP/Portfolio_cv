@@ -24,17 +24,7 @@ const Skills = () => {
         </div>
 
         <div className="skills-section">
-          <div className="skills-block">
-            <h2>Transversales</h2>
-            <ul>
-              <li>Git / GitHub</li>
-              <li>Requêtes HTTP & REST API</li>
-              <li>Architecture MVC</li>
-              <li>Méthodologies agiles</li>
-              <li>Organisation de projet</li>
-              <li>Communication technique</li>
-            </ul>
-          </div>
+          
 
           <div className="skills-columns">
             <div className="skills-block">
@@ -53,6 +43,18 @@ const Skills = () => {
               <div className="ProgressBar"><h4>MySQL 60%</h4><div className="progress" style={{ width: '60%', backgroundColor: '#00796b' }}></div></div>
               <div className="ProgressBar"><h4>API REST 70%</h4><div className="progress" style={{ width: '70%', backgroundColor: '#5e35b1' }}></div></div>
             </div>
+          </div>
+
+          <div className="skills-block">
+            <h2>Transversales</h2>
+            <ul>
+              <li>Git / GitHub: Maîtrise du versionning via GitHub et des lignes de commande associées à son utilisation (clonage, branches, commits, merges...).</li>
+              <li>Requêtes HTTP & REST API: Capacité à consommer des API REST à l’aide de requêtes HTTP (GET, POST, PUT, DELETE) avec JavaScript ou Postman.</li>
+              <li>Architecture MVC: Compréhension et application du modèle MVC (Modèle-Vue-Contrôleur) pour structurer proprement des projets web côté back et front.</li>
+              <li>Méthodologies agiles: Initiation à la gestion de projet avec des méthodes agiles (type Scrum), gestion de sprints, user stories et travail en équipe.</li>
+              <li>Organisation de projet: Utilisation d’outils de planification (Trello, GitHub Projects...) pour suivre les tâches, organiser les livrables et respecter les deadlines.</li>
+              <li>Communication technique: Capacité à documenter clairement le code, échanger efficacement sur des problématiques techniques et travailler en équipe.</li>
+            </ul>
           </div>
         </div>
       </div>
